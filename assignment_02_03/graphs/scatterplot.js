@@ -3,7 +3,7 @@ let data = [];
 let total = 0;
 
 function preload() {
-  table = loadTable('cereal.csv', 'csv', 'header');
+  table = loadTable('data/cereal.csv', 'csv', 'header');
 }
 
 function setup() {

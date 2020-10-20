@@ -8,7 +8,7 @@ const svg = d3.select("body").append("svg")
 
 var nameData = [];
 
-d3.csv("cereal.csv").then(function(data) {
+d3.csv("data/cereal.csv").then(function(data) {
   data.forEach(d => (nameData.push(d.name)))
   //console.log(nameData)
 
