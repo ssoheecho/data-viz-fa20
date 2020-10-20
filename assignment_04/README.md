@@ -1,4 +1,5 @@
 Read full documentation on the assignment [here](https://github.com/ssoheecho/data-viz-fa20/tree/main/assignment_04)
+
 See the working figma prototype [here](https://www.figma.com/proto/kMJxWrW4Zz8I5fgGdFrqnU/data-viz-assignment-4?node-id=3%3A25&scaling=min-zoom)
 
 ### exercise
