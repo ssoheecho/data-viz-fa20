@@ -6,4 +6,4 @@
 - [x] [assignment 2 & 3](https://github.com/ssoheecho/data-viz-fa20/tree/main/assignment_02_03)
 - [x] [assignment 4](https://github.com/ssoheecho/data-viz-fa20/tree/main/assignment_04)
 - [x] [assignment 5](https://github.com/ssoheecho/data-viz-fa20/tree/main/assignment_05)
-- [] [midterm]
+[] [midterm]
