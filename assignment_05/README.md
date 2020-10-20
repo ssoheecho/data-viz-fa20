@@ -1,4 +1,4 @@
-Read full documentation on the assignment [here](https://github.com/ssoheecho/data-viz-fa20/tree/main/assignment_05)
+Read full documentation on the assignment [here](https://www.notion.so/assignment-5-0cee5c843dd14d508dad6e1b0b851eff)
 
 See the working figma prototype [here](https://www.figma.com/proto/UwjAybTxxqdx2Ztket9t4x/data_visualization_assignment_5?node-id=1%3A2&scaling=min-zoom)
 
