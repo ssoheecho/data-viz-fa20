@@ -39,13 +39,6 @@ d3.csv("data/cereal.csv").then(function(data) {
                   .style("border-radius", "5px")
                   .style("padding", "5px")
                   .text("a simple tooltip");
-
-var mousemove = function(d) {
-  tooltip
-    .html("The exact value of<br>this cell is: " + d.value)
-    .style("left", (d3.mouse(this)[0]+70) + "px")
-    .style("top", (d3.mouse(this)[1]) + "px")
-}
   
   let chartGroup = svg.append("g").attr("transform", "translate("+margin.left[1]+", "+margin.top+")");
 
