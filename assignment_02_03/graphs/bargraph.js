@@ -38,6 +38,7 @@ d3.csv("data/cereal.csv").then(function(data) {
                   .style("background-color", "gray")
                   .style("border-radius", "5px")
                   .style("padding", "5px")
+                  .style('font-size', '.75em')
                   .text("a simple tooltip");
   
   let chartGroup = svg.append("g").attr("transform", "translate("+margin.left[1]+", "+margin.top+")");
@@ -51,10 +52,10 @@ d3.csv("data/cereal.csv").then(function(data) {
     .attr("x", (d, i) =>  i * 8 )
     .attr("y", (d) => y(parseInt(d.calories)))
     .attr("fill", "#8859b6")
-    .on("mouseover", function(){
+    .on("mouseover", function(event, d){
       return tooltip.data(data)
                     .style("visibility", "visible")
-                    .text((d) => d.name + " - " + d.calories + " cal");
+                    .text(d.name + " - " + d.calories + " cal");
     })
 	  .on("mousemove", function(){
       return tooltip.style("top", (event.pageY-40)+"px")
