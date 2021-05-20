@@ -53,8 +53,7 @@ d3.csv("data/cereal.csv").then(function(data) {
     .attr("y", (d) => y(parseInt(d.calories)))
     .attr("fill", "#8859b6")
     .on("mouseover", function(event, d){
-      return tooltip.data(data)
-                    .style("visibility", "visible")
+      return tooltip.style("visibility", "visible")
                     .text(d.name + " - " + d.calories + " cal");
     })
 	  .on("mousemove", function(){
